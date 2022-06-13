@@ -49,59 +49,59 @@
     * 99.9%
     * 99.99%
   * Availability in parallel vs sequence
-* Domain name system 
-  * What is DNS?
-  * How does DNS work ?
-  * How does DNS route traffic?
-  * Parts of a URL(Domain)?
-  * Different types of internet domains?
-    * Com vs org vs edu etc
- * CDN
-   * What is a CDN?
-   * Types of CDN ?
-   * Example of a CDN?
-   * How does a CDN work?
-   * Why are CDN needed?
-   * Who uses CDN?
-   * What are the benefits of using CDN?
-   * What are the disadvantages of using CDN?
- * Load balancers 
-What are load balancers?
-Why do we need load balancers?
-Where are load balancers typically placed?
-How can we achieve load balancing?
-What are different categories of load balancers?
-L4
-L7
-GSLB
-Load balancing algorithms 
-RR
-WRR
-Least connections
-Least response time 
-IPHash
-What additional tasks can load balancers do?
-SSL termination
-DDOS
-How to avoid SPOF ?
-Proxy 
-What is a proxy?
-What is a forward proxy?
-What is a reverse proxy?
-Advantages and disadvantages for proxy?
-API Gateway /Application layer 
-What is an API gateway?
-Why use API gateway?
-Core functionalities ?
-While designing APIS
-Naming 
-URI definition 
-Single responsibility principle
-# of params
-Type of request GET/POST/PUT/PATCH/DELETE
-Authentication 
-Return status - 200, 201, 400,401, 403,404, 429, 500, 503
-Additional items to discuss
+ * Domain name system 
+   * What is DNS?
+   * How does DNS work ?
+   * How does DNS route traffic?
+   * Parts of a URL(Domain)?
+   * Different types of internet domains?
+     * Com vs org vs edu etc
+  * CDN
+    * What is a CDN?
+    * Types of CDN ?
+    * Example of a CDN?
+    * How does a CDN work?
+    * Why are CDN needed?
+    * Who uses CDN?
+    * What are the benefits of using CDN?
+    * What are the disadvantages of using CDN?
+  * Load balancers 
+    * What are load balancers?
+    * Why do we need load balancers?
+    * Where are load balancers typically placed?
+    * How can we achieve load balancing?
+    * What are different categories of load balancers?
+      * L4
+      * L7
+      * GSLB
+    * Load balancing algorithms 
+      * RR
+      * WRR
+      * Least connections
+      * Least response time 
+      * IPHash
+    * What additional tasks can load balancers do?
+      * SSL termination
+      * DDOS
+    * How to avoid SPOF ?
+  * Proxy 
+    * What is a proxy?
+    * What is a forward proxy?
+    * What is a reverse proxy?
+    * Advantages and disadvantages for proxy?
+  * API Gateway /Application layer 
+  * What is an API gateway?
+  * Why use API gateway?
+  * Core functionalities ?
+  * While designing APIS
+    * Naming 
+    * URI definition 
+    * Single responsibility principle
+    * number of params
+    * Type of request GET/POST/PUT/PATCH/DELETE
+    * Authentication 
+    * Return status - 200, 201, 400,401, 403,404, 429, 500, 503
+  * Additional items to discuss
 Rate limiting 
 API versioning 
 Error handling 
