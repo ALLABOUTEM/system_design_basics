@@ -102,53 +102,53 @@
     * Authentication 
     * Return status - 200, 201, 400,401, 403,404, 429, 500, 503
   * Additional items to discuss
-Rate limiting 
-API versioning 
-Error handling 
-Caching 
-Listviews (special operations)
-Pagination 
-Sorting 
-Searching 
-GET/POST
-Alias
-Documentation 
- Cheat sheet 
-Objects 
-Each object - kind of CRUDL
-URI
-Request 
-Type
-params
-Response 
-Response code 
-Happy 
-Error
-Microservices 
-What are microservices?
-Define ?
-Components of microservices architecture ?
-API gateway
-Microservices
-Management 
-Service discovery
-Benefits of microservice architecture?
-Independent development
-Independent deployment 
-Fault isolation
-Granular scaling 
-Mix and match
-Monolithic vs Microservives?
-Features of micro services 
-Decoupling 
-Componentization
-Business capabilities
-Autonomy 
-CD
-Responsibility 
-Decentralized governance
-Agility 
-Challenges of microservice architecture?
+    * Rate limiting 
+    * API versioning 
+    * Error handling 
+    * Caching 
+  * Listviews (special operations)
+    * Pagination 
+    * Sorting 
+    * Searching 
+    * GET/POST
+  * Alias
+  * Documentation 
+  * Cheat sheet for each API(s)
+    * Objects 
+    * Each object - kind of CRUDL
+      * URI
+      * Request 
+        * Type
+        * params
+      * Response 
+        * Response code 
+        * Happy 
+        * Error
+  * Microservices 
+    * What are microservices?
+      * Define ?
+      * Components of microservices architecture ?
+         * API gateway
+         * Microservices
+           * Management 
+           * Service discovery
+       * Benefits of microservice architecture?
+         * Independent development
+         * Independent deployment 
+         * Fault isolation
+         * Granular scaling 
+         * Mix and match
+       * Monolithic vs Microservives?
+       * Features of micro services 
+         * Decoupling 
+         * Componentization
+         * Business capabilities
+         * Autonomy
+         * CD
+         * Responsibility 
+         * Decentralized governance
+         * Agility 
+       * Challenges of microservice architecture?
 Decentralization
 Distributed transactions
 Types of approach ?
