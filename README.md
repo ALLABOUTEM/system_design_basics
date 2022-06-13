@@ -244,39 +244,39 @@ Concept
 Leader election 
 Heart beat /id
 Zookeeper based on host recent data
-Rate limiting 
-What is rate limiting?
-What are the different kinds of rate limiting?
-Client side 
-Server side 
-What are the advantages of rate limiting?
-Prevention of resource starving
-Managing policy and quota
-Controlling flow 
-Cost
-Strategies for rate limiting?
-No rate limiting
-Pass through
-Enforce rate limiting
-Delay response
-Algorithms for rate limiting?
-Token 
-Leaky bucket
-Fixed window
-Sliding window
-Rate limiting headers?
+  * Rate limiting 
+    * What is rate limiting?
+    * What are the different kinds of rate limiting?
+      * Client side 
+      * Server side 
+  * What are the advantages of rate limiting?
+    * Prevention of resource starving
+    * Managing policy and quota
+    * Controlling flow 
+    * Cost
+  * Strategies for rate limiting?
+    * No rate limiting
+    * Pass through
+    * Enforce rate limiting
+    * Delay response
+  * Algorithms for rate limiting?
+    * Token 
+    * Leaky bucket
+    * Fixed window
+    * Sliding window
+  * Rate limiting headers?
 Limit
 Remaining 
 Retry after
 Performance optimization
 Geo Based 
-Logging and monitoring 
-Why log 
-Eros
-Access logs 
-Why monitor
-Map reduce 
-Map step - map function <key, value>
-Shuffle - Same key to same machine 
-Reduce - Transform the data into meaningful data 
+  * Logging and monitoring 
+    * Why log 
+      * Erros
+      * Access logs 
+    * Why monitor
+  * Map reduce 
+    * Map step - map function <key, value>
+    * Shuffle - Same key to same machine 
+    * Reduce - Transform the data into meaningful data 
 
