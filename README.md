@@ -1,70 +1,71 @@
-# System Design Basics
-## Scalability 
-### Vertical scaling 
-#### Advantages and disadvantages 
-### Horizontal scaling
-#### Advantages and disadvantages 
-When to use vertical vs horizontal scaling
-Caching
-Load balancing 
-Database replication
-Database partitioning  
-Performance vs Scalability
-When do you have a performance problem? 
-When do you have a scalability problem?
-Latency vs Throughput
-Define latency
-Define Throughput
-CAP theorem 
-What is the CAP theorem ?
-Types of the systems?
-What kind of data stores belong to
-CA
-CP
-AP
-Can you 'get around' or 'beat' the CAP Theorem?
-What is a Partition in CAP Theorem?
-How to choose between CP (consistency) and AP (availability)?
-Explain what is PACELC Theorem?
-PA/EL
-PC/EC
-PA/EC
-Consistency patterns
-Types of consistency?
-Weak 
-Eventual 
-Strong
-Availability patterns
-Patterns to support high availability? 
-Fail over ?
-Active passive (2)
-Active Active 
-Disadvantages of failover 
-Replication?
-Primary- secondary  
-Primary - Primary 
-Disadvantages of replication?
-What Do You Mean By High Availability (HA)?
-99.9%
-99.99%
-Availability in parallel vs sequence
-Domain name system 
-What is DNS?
-How does DNS work ?
-How does DNS route traffic?
-Parts of a URL(Domain)?
-Different types of internet domains?
-Com vs org vs edu etc
-CDN
-What is a CDN?
-Types of CDN ?
-Example of a CDN?
-How does a CDN work?
-Why are CDN needed?
-Who uses CDN?
-What are the benefits of using CDN?
-What are the disadvantages of using CDN?
-Load balancers 
+
+* System Design Basics
+  * Scalability 
+    * Vertical scaling 
+      * Advantages and disadvantages 
+    * Horizontal scaling
+      * Advantages and disadvantages 
+    * When to use vertical vs horizontal scaling
+    * Caching
+    * Load balancing
+    * Database replication
+    * Database partitioning  
+  * Performance vs Scalability
+    * When do you have a performance problem? 
+    * When do you have a scalability problem?
+  * Latency vs Throughput
+    * Define latency
+    * Define Throughput
+  * CAP theorem 
+    * What is the CAP theorem ?
+    * Types of the systems?
+    * What kind of data stores belong to
+      * CA
+      * CP
+      * AP
+    * Can you 'get around' or 'beat' the CAP Theorem?
+    * What is a Partition in CAP Theorem?
+    * How to choose between CP (consistency) and AP (availability)?
+    * Explain what is PACELC Theorem?
+      * PA/EL
+      * PC/EC
+      * PA/EC
+  * Consistency patterns
+     * Types of consistency?
+       * Weak 
+       * Eventual 
+       * Strong
+  * Availability patterns
+    * Patterns to support high availability? 
+    * Fail over ?
+      * Active passive (2)
+      * Active Active 
+      * Disadvantages of failover 
+  * Replication?
+    * Primary- secondary  
+    * Primary - Primary 
+    * Disadvantages of replication?
+  * What Do You Mean By High Availability (HA)?
+    * 99.9%
+    * 99.99%
+  * Availability in parallel vs sequence
+* Domain name system 
+  * What is DNS?
+  * How does DNS work ?
+  * How does DNS route traffic?
+  * Parts of a URL(Domain)?
+  * Different types of internet domains?
+    * Com vs org vs edu etc
+ * CDN
+   * What is a CDN?
+   * Types of CDN ?
+   * Example of a CDN?
+   * How does a CDN work?
+   * Why are CDN needed?
+   * Who uses CDN?
+   * What are the benefits of using CDN?
+   * What are the disadvantages of using CDN?
+ * Load balancers 
 What are load balancers?
 Why do we need load balancers?
 Where are load balancers typically placed?
