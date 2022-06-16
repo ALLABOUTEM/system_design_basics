@@ -207,43 +207,43 @@ Basically available
 Soft state
 Eventual consistency
 Sql Vs no Sql
-Caching 
-Kinds of caching 
-Client side caching 
-CDN caching
-Web server caching 
-Database caching 
-Application caching 
-Cache invalidation 
-Write thru cache
-Write around cache
-Write back cache 
-Cache eviction policy 
-FIFO
-LIFO
-LRU
-MRU
-LFU
-RR
-Async methodology 
-Message queue 
-One to one
-Pub-sub model
-One to many
-Kafka vs Active Mq
-Security /Authentication
-JWT
-oAuth 2
-Long-polling vs websockets vs server sent
-Ajax polling 
-Http long polling 
-Websockets
-Server sent events 
-Leader election 
-Concept 
-Leader election 
-Heart beat /id
-Zookeeper based on host recent data
+  * Caching 
+    * Kinds of caching 
+      * Client side caching 
+      * CDN caching
+      * Web server caching 
+      * Database caching 
+      * Application caching 
+    * Cache invalidation 
+      * Write thru cache
+      * Write around cache
+      * Write back cache 
+    * Cache eviction policy 
+      * FIFO
+      * LIFO
+      * LRU
+      * MRU
+      * LFU
+      * RR
+  * Async methodology 
+    * Message queue 
+      * One to one
+    * Pub-sub model
+      * One to many
+    * Kafka vs Active Mq
+  * Security /Authentication
+    * JWT
+    * oAuth 2
+  * Long-polling vs websockets vs server sent
+    * Ajax polling 
+    * Http long polling 
+    * Websockets
+    * Server sent events 
+  * Leader election 
+    * Concept 
+    * Leader election 
+      * Heart beat /id
+      * Zookeeper based on host recent data
   * Rate limiting 
     * What is rate limiting?
     * What are the different kinds of rate limiting?
