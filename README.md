@@ -149,34 +149,34 @@
          * Decentralized governance
          * Agility 
        * Challenges of microservice architecture?
-Decentralization
-Distributed transactions
-Types of approach ?
-Hybrid vs purist
-Testing in micro services 
-Unit testing 
-Integration/contract testing 
-End to end test (workflow)
-User testing 
-Microservices communication?
-Sync 
-HTTP
-gRPC
-Async 
-Kafka
-Distributed transactions?
-2PC
-TC/C
-Saga
-Microservice deployment  
-Service discovery (Zookeeper) 
-Database (RDBMS)
-ACID 
-Scaling relational database
-Replication 
-Federation 
-Sharding 
-Denormalization
+         * Decentralization
+         * Distributed transactions
+     * Types of approach ?
+       * Hybrid vs purist
+     * Testing in micro services 
+       * Unit testing  
+       * Integration/contract testing 
+       * End to end test (workflow)
+       * User testing 
+     * Microservices communication?
+       * Sync 
+         * HTTP
+         * gRPC
+       * Async 
+         * Kafka
+     * Distributed transactions?
+       * 2PC
+       * TC/C
+       * Saga
+    * Microservice deployment  
+    * Service discovery (Zookeeper) 
+  * Database (RDBMS)
+    * ACID 
+    * Scaling relational database
+      * Replication 
+      * Federation 
+      * Sharding 
+      * Denormalization
   * Replication
     * Types 
       * Primary - secondary
@@ -265,11 +265,11 @@ Sql Vs no Sql
     * Fixed window
     * Sliding window
   * Rate limiting headers?
-Limit
-Remaining 
-Retry after
-Performance optimization
-Geo Based 
+    * Limit
+    * Remaining 
+    * Retry after
+  * Performance optimization
+    * Geo Based 
   * Logging and monitoring 
     * Why log 
       * Erros
