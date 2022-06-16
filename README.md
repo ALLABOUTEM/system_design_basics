@@ -177,35 +177,35 @@ Replication
 Federation 
 Sharding 
 Denormalization
-Replication
-Types 
-Primary - secondary
-Primary - primary
-Strategies 
-Log based data replication
-Statement based log
-Row based log 
-Full table data replication 
-Snapshot replication
-Transactional replication
-Key based incremental database replication
-DB sharding 
-Horizontal or range based sharing 
-Vertical sharing 
-Hash based sharding 
-Consistent hashing
-Directory based sharding (Look up service)
-No Sql 
-What is no SQL database? (Lose ACID, eventual consistency)
-Key value (EC, D, M)
-Document store
-Column db 
-Graph 
-Time series 
-BASE 
-Basically available
-Soft state
-Eventual consistency
+  * Replication
+    * Types 
+      * Primary - secondary
+      * Primary - primary
+    * Strategies 
+      * Log based data replication
+        * Statement based log
+        * Row based log 
+      * Full table data replication 
+        * Snapshot replication
+        * Transactional replication
+      * Key based incremental database replication
+  * DB sharding 
+    * Horizontal or range based sharing 
+    * Vertical sharing 
+    * Hash based sharding 
+      * Consistent hashing
+    * Directory based sharding (Look up service)
+  * No Sql 
+    * What is no SQL database? (Lose ACID, eventual consistency)
+      * Key value (EC, D, M)
+      * Document store
+      * Column db 
+      * Graph 
+      * Time series 
+    * BASE 
+      * Basically available
+      * Soft state
+      * Eventual consistency
 Sql Vs no Sql
   * Caching 
     * Kinds of caching 
